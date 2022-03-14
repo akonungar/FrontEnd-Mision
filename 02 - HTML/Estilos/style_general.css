@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image:url("../img/Header.jpg") ;
+    background-size: cover;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.Header_Logo{
+    padding: 50;
+}
+.Header_Menu{
+    text-align: right;
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.parrafo_negritas{
+    font-weight: 700;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
